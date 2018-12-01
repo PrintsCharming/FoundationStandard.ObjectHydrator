@@ -45,6 +45,7 @@ Hydrator<Customer> _customerHydrator = new Hydrator<Customer>()
 
 Version 2.0
 * New Project Name - Reflects that the project is now built as a .netstandard 2.0 library
+* Regarding consuming this from a .Net Framework project. Please read this post from Scott Hanselman: https://www.hanselman.com/blog/ReferencingNETStandardAssembliesFromBothNETCoreAndNETFramework.aspx
 
 Version 1.3.0
 * Added 3 new generators UnitedKingdomPhoneNumberGenerator, UnitedKingdomInsuranceNumberGenerator, and CulturesGenerator thanks to rikrak and ushenkodmitry
