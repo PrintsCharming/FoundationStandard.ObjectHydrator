@@ -65,7 +65,7 @@ Version 0.7.0
 * Added new generators: UnitedKingdomCityGenerator, UnitedKingdomCountyGenerator, UnitedKingdomPostcodeGenerator, AlphaNumericGenerator.
 
 ## Nuget
-Coming soon.
+Install-Package FoundationStandard.ObjectHydrator -Version 2.0.0
 
 ## Summary
 
