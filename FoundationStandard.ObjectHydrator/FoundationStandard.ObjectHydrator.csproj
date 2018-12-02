@@ -4,7 +4,13 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>2.0.0</Version>
-    <Description>ObjectHydrator .netstandard 2.0</Description>
+    <Description>This project allows you to pass custom POCO's to it, and have it return an instance of the class populated with randomly generated but real-world looking data. This random data can be overridden by convention.</Description>
+    <PackageProjectUrl>https://github.com/PrintsCharming/FoundationStandard.ObjectHydrator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/PrintsCharming/FoundationStandard.ObjectHydrator</RepositoryUrl>
+    <PackageReleaseNotes>First .netstandard version</PackageReleaseNotes>
+    <PackageTags>api poco data generation</PackageTags>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/PrintsCharming/FoundationStandard.ObjectHydrator/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
