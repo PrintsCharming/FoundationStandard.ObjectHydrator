@@ -11,6 +11,8 @@
     <PackageTags>api poco data generation</PackageTags>
     <PackageLicenseUrl>https://raw.githubusercontent.com/PrintsCharming/FoundationStandard.ObjectHydrator/master/LICENSE</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <AssemblyVersion>2.0.1.0</AssemblyVersion>
+    <FileVersion>2.0.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

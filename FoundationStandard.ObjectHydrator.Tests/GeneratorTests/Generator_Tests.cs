@@ -428,5 +428,17 @@ namespace FoundationStandard.ObjectHydrator.Tests.GeneratorTests
             Assert.Greater(cultureLCID, 0);
 
         }
+
+        [Test]
+        public void ISBNGeneratorTest()
+        {
+            var expectedPreFix = "978-1";
+            var expectedLength = 17;
+
+            var ISBNGenerator = new ISBNGenerator();
+            var result = ISBNGenerator.Generate();
+            Assert.IsTrue(result.Length == 17);
+            Assert.IsTrue(result.StartsWith(expectedPreFix), "The ISBN should start with \"{0}\"", expectedPreFix);
+        }
     }
 }

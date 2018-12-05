@@ -20,6 +20,9 @@ namespace FoundationStandard.ObjectHydrator
             Add(new Map<byte[]>().Using(new ByteArrayGenerator(8)));
             Add(new EnumMap());
             Add(new Map<string>()
+                .Matching(info => info.Name.ToLower() == "isbn" || info.Name.ToLower() == "isbnnumber")
+                .Using(new ISBNGenerator()));
+            Add(new Map<string>()
                     .Matching(info => info.Name.ToLower() == "firstname" || info.Name.ToLower() == "fname")
                     .Using(new FirstNameGenerator()));
             Add(new Map<string>()
