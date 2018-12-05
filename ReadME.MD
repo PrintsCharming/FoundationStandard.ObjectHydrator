@@ -43,6 +43,9 @@ Hydrator<Customer> _customerHydrator = new Hydrator<Customer>()
 
 ## Changes
 
+Version 2.0.1
+* Added ISBN Generator
+
 Version 2.0
 * New Project Name - Reflects that the project is now built as a .netstandard 2.0 library
 * Regarding consuming this from a .Net Framework project. Please read this post from Scott Hanselman: https://www.hanselman.com/blog/ReferencingNETStandardAssembliesFromBothNETCoreAndNETFramework.aspx
@@ -65,7 +68,7 @@ Version 0.7.0
 * Added new generators: UnitedKingdomCityGenerator, UnitedKingdomCountyGenerator, UnitedKingdomPostcodeGenerator, AlphaNumericGenerator.
 
 ## Nuget
-Install-Package FoundationStandard.ObjectHydrator -Version 2.0.0
+Install-Package FoundationStandard.ObjectHydrator
 
 ## Summary
 
